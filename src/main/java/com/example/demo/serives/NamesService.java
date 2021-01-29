@@ -16,6 +16,8 @@ import static java.util.Collections.emptyList;
 
 @Service
 @AllArgsConstructor
+//@Transactional
+//@Transactional(propagation = Propagation.REQUIRES_NEW)
 public class NamesService {
     private final NamesRepository repository;
 
